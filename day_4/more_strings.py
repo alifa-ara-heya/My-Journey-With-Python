@@ -41,7 +41,7 @@ print("{} {}" .format(first_name, last_name) .title())
 #adding whitespace to strings with Tabs or Newlines:
 print("Python")
 print("\tPython")                                                #Adds a tab on output.
-print("Languages:\n\tPython\n\tC\n\tJavascript")                 #\n = new line          \t = tab
+print("Languages:\n\tPython\n\tC\n\tJavascript")                 #\n = new line         & \t = tab
 
 #removing whitespaces:
 fav_lang = 'Python '
