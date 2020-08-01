@@ -6,11 +6,11 @@
 print("Hello, World!".lower())                                                  #Output: hello, world!
 print("Assalamu Alaikum!" .upper())                                             #Output: ASSALAMU ALAIKUM!
 print("How are you?" .capitalize())                                             #Output: How are you? (Capitalizes the first character)
-print("I am a Muslim." .title())                                                #Output: I Am A Muslim. (Capitalizes the first character of every word.)
+print("I am Muslim." .title())                                                  #Output: I Am A Muslim. (Capitalizes the first character of every word.)
 print("  Hello, Bangladesh! " .strip())                                         #Output: Hello Bangladesh! (Removes spaces from both ends.)
 
 
-#How do we print quotation mark/ apostrophe?
+#How do we print quotation mark / apostrophe?
 print("\"I love my ammu.\"")                                                    #Output: "I love my ammu."
 
 #printing multiple lines with line break:
@@ -18,7 +18,7 @@ print('''Rain Rain Rain
 Pain Pain Pain
 No No No
 Go Go Go
-I love Rain!''')                                                                 #We can use either three single quotation or three double quotation at both ends
+I love Rain!''')                                                                #We can use either three single quotation or three double quotation at both ends
 
 
 #Some exercises:
@@ -30,7 +30,7 @@ print("{} everybody!" .format(greeting))
 #or,
 print("{} everybody!" .format("Assalamu Alaikum"))
 #or,
-print(f"{greeting} everybody!")                                       #better
+print(f"{greeting} everybody!")                                                  #better
 
 print(f"{greeting} everybody!" .upper())
 print(f"{greeting} everybody!" .capitalize())
