@@ -32,3 +32,23 @@ print("Area of a circle:", pi * radius ** 2)
 print("Area of a circle:", pi * pow(radius,2))
 
 
+
+#declaring some more variables:
+skills= ['hTML', 'CSS', 'Python']
+person_info = {
+    'firstname' : 'Alifa',
+    'lastname' : 'Hiya',
+    'country' : 'Bangladesh',
+    'city' : 'Dhaka'
+}
+print(type(person_info))
+print(skills)
+print(person_info)
+
+#type casting:
+#str to list:
+firstname = 'Alifa'
+print("First Name:", list(firstname))        #output: ['A', 'l', 'i', 'f', 'a']
+#or,
+firstname = list(firstname)
+print("First name in list:", firstname)

@@ -8,8 +8,9 @@ print(4 - 3)                  #substraction(-)
 print(4 * 3)                  #multiplication(*)
 print(4 / 3)                  #division(/)
 print(3 ** 4)                 #exponential(**)
-print(4 % 3)                  #modulus (which means finding the remainder (ভাগশেষ))
-print(7 // 3)                 #floor division operator i.e.removing the remainder(ভাগফল)
+print(4 % 3)                  #output: 1 (modulus (which means finding the remainder (ভাগশেষ))
+print(7 // 3)                 #output: 2 (floor division operator i.e.removing the remainder(ভাগফল))
+print(13 % 3)                 #output: 1
 
 #Python data types:
 print(type(20))                                               #integer(i.e. ...-3,-2,-1,0,1,2,3..)
@@ -21,4 +22,3 @@ print(type({'name' : 'Alifa', 'country': 'Bangladesh'}))      #dictionary:    ('
 print(type(("alifa", "Bangladesh", "book")))                  #tuple (ordered collection of different data types)
 print(type({3 ,14, 4.3, "Alifa"}))                            #set  (order isn't important)
 print(type(True))                                             #boolean
-

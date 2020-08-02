@@ -10,3 +10,10 @@ Your_name = Your_name.strip().title()
 print("Hello,",Your_name,"!")                                         #Output: Hello, h !
 #or,
 print(f"Hello, {Your_name}!")                                         #Output: Hello, h! (better)
+
+#A basic summation calculator:
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+
+result = float(num1) + float(num2)
+print(result)

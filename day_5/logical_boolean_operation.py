@@ -1,7 +1,7 @@
 #Day_5: August/01/2020
 #In the name 0f Allah..
 #Me: Alifa Ara Heya
-#Book: Automate the boring staff by Python
+#Book: Automate the boring staff by Python and Asabeneh
 
 print(42 == 42)                        #output: True (checking logical operation)
 print(42 > 43)                         #output: False
@@ -28,6 +28,8 @@ print(my_age <= 50)                    #less than or equal to, so true
 
 print("Cat" == "cat")                  #False
 print("cat" == "cat")                  #True
+print(len("tomato") == len("potato"))  #True
+
 
 #Boolean Operators:
 print(True and True)                   #True
@@ -60,3 +62,11 @@ print(x == 8 )                         #output: true
 
 x -=6
 print(x)                               #output: 2  as,(8-6=2)
+
+#is and in operator:
+print(1 is 1)                          #True
+print(2 is 1)                          #False
+print("A" in "Alifa")                  #True
+print("A in Alifa:" , 'A' in 'Alifa')  #A in Alifa: True
+print("coding" in "coding for all")    #True
+print(4 is 2*2)                        #True

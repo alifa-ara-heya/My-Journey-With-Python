@@ -3,7 +3,7 @@
 #Me: Alifa Ara Heya
 #Topic: index, isupper function, file and replace function
 
-course = 'python for beginners by Mosh'
+course = 'python for beginners by Mosh and Asabeneh'
 
 print(course[0])
 
@@ -38,10 +38,12 @@ another_sentence = sentence[:]
 print(another_sentence)             #output: You are beautiful.
 
 #find and replace:
-print(sentence.find("beautiful")) #output: 8
+print(sentence.find("beautiful"))   #output: 8
 print(sentence.replace("beautiful", "absolutely beautiful"))  #output: You are absolutely beautiful.
-print('beautiful' in sentence)    #output: True   (in is an operator which produces Boolean value)
-print('ugly' in sentence)         #output: False
+
+#"in" is a Python membership operator.
+print('beautiful' in sentence)      #output: True   (in is an operator which produces Boolean value)
+print('ugly' in sentence)           #output: False
 
 name = "Jennifer"
 print(name[0 : 1])     #output : J
@@ -65,6 +67,6 @@ print(name.isupper())  #True
 print(len(name))       #8
 
 #.index method to find the index number:
-print(name.index("J")) #index num: 0
-print(name.index("E")) #index num: 1
-print(sentence.index("beautiful")) #index num: 8
+print(name.index("J"))              #index num: 0
+print(name.index("E"))              #index num: 1
+print(sentence.index("beautiful"))  #index num: 8

@@ -25,4 +25,4 @@ print(math.ceil(3.9))     #output: 4
 print(math.ceil(3.2))     #output: 4
 print(math.floor(3.9))    #output: 3
 print(math.floor(3.2))    #output: 3
-print(math.sqrt(81))
+print(math.sqrt(81))      #output: 9.0 (sqrt = square root)
