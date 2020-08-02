@@ -13,6 +13,7 @@ person_info = {
 print(skills)
 print(person_info)
 
+#type casting:
 #str to int:
 firstname = 'Alifa'
 print("First Name:", list(firstname))        #output: ['A', 'l', 'i', 'f', 'a']
