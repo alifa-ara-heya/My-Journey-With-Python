@@ -149,6 +149,8 @@ print(greeting [::-1])                          # !dlroW ,olleH
 print(greeting [::-2])                          # !lo olH
 print(greeting [::-3])                          # !r lH
 print(greeting [::1])                           # Hello, World!
+print(greeting [::3])                           # Hlo ol!
+print(greeting [::3])                           # !r lH
 
 
 #Skipping characters while slicing:
