@@ -14,8 +14,8 @@ print(pow(3, 2))         #output: 9 (3^2=9)
 print(max(20, 30, 40))        #multiple arguments
 print(min(20, 30, 40))        
 
-print(max([50, 60, 70]))      #it takes list as an argument and returns the maximum number.
-print(min([50, 60, 70]))      
+print(max([50, 60, 70]))      #70, it takes list as an argument and returns the maximum number.
+print(min([50, 60, 70]))      #50
 
 print(sum([20, 40]))          #60
 

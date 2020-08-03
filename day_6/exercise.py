@@ -1,3 +1,8 @@
+#Day_6: August/02/2020
+#In the name 0f Allah..
+#Me: Alifa Ara Heya
+#From: Asabeneh
+
 #Calculating the area of a triangle:
 base = input("Enter base: ")
 height = input("Enter height: ")
@@ -30,3 +35,35 @@ if int(x) % 2 == 0:
     print("Even number")
 else:
     print("Odd number")
+
+
+print(len("python") > len("jargon"))        #output: False
+print("on" in "python")                     #output: True
+
+
+#I hope this course is not full of jargon. Use 'in' operator to check if jargon is in the sentence.
+print("jargon" in "This course isn't full of jargon.") #output: True
+print(str(float(len("python"))))
+
+print(10 % 2 == 0)                          #output: True and it is even (divisible by 0)
+
+
+#The floor division of 7 by 3 is equal to the int converted value of 2.7.
+val1 =  7 // 3
+val2 = int(2.7)
+print(val1 is val2)                         #True
+
+
+#Check if type of '10' is equal to 10
+string = '10'
+integer = 10
+print(string is integer)                    #False
+#or,
+print(type(string) == type(integer))        #False
+#or,
+type(string) is type(integer)               #False
+
+
+#Check if int('9.8') is equal to 10
+print('9.8'== 10)                           #False
+print(int(9.8) is 10)                       #False
