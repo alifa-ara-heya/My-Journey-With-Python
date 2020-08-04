@@ -1,5 +1,6 @@
 # 30DaysOfPython
-*Bismiilah* (in the name of Allah). This is my my journey to Python. Everyday I will push myself to code, and here I will save my progress, *inshaaAllah* (if Allah wills).<br>
+*Bismiilah* (in the name of Allah). This is my adventurous journey to Python. I am not from a computer science background. So, indeed this is a daring journey for me.:mountain: 
+<br>And I am so happy that I am learning a new skill with which I will be able to help my community *inshaAllah* (if Allah wills). Everyday I will push myself to code and here I will save my progress,.<br>
 **Any type of constructive criticism is much welcome as I am a new programmer.** So, feel free to create issues or pull requests. You can also use this repo if you want to do exercises on each topic of ***Python***. I am trying to make it as ordered as possible.<br><br>
 And, if you like this, give it a **star** :star: to inspire me. :smile: <br>
 <br>
