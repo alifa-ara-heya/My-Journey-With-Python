@@ -18,7 +18,7 @@ days_in_27_years = 365 * 27
 months_in_27_years = 12 * 27
 weeks_in_27_years = (365 / 7) * 27
 
-print("Days in 27 years: " , days_in_27_years)             #Here we can't use plus to concatenate because our variable is integer. String and integer can't be concatenated.
+print("Days in 27 years: " , days_in_27_years)           # Here we can't use plus to concatenate because our variable is integer. String and integer can't be concatenated.
 print("Months in 27 years: ", months_in_27_years)
 print("Weeks in 27 years: ", int(weeks_in_27_years))
 
@@ -48,7 +48,15 @@ print(person_info)
 #type casting:
 #str to list:
 firstname = 'Alifa'
-print("First Name:", list(firstname))        #output: ['A', 'l', 'i', 'f', 'a']
+print("First Name:", list(firstname))        # output: ['A', 'l', 'i', 'f', 'a']
 #or,
 firstname = list(firstname)
 print("First name in list:", firstname)
+
+
+# Declaring variables in one line:
+name, country, city, age = "Fatema", "Bangladesh", "Rajshahi", 25
+print(name)                                  # Fatema
+print(country)                               # Bangladesh
+print(city)                                  # Rajshahi
+print(age)                                   # 25
