@@ -101,15 +101,15 @@ print(scandic)                    # ['Denmark', 'Finland', 'Norway', 'Iceland']
 print(es)                         # Estonia
 
 # Example-4:
-cities = ['Dhaka', "Chittagong", 'Barishal', "Khulna", "Sylhet", "Jessore", "Rajshahi"]
-Dha, Ctg, Bar, Khu, *two_cities, raj = cities
+cities = ['Dhaka', "Chittagong", 'Barishal', "Khulna", "Sylhet", "Jessore", "Rajshahi","Bogra"]
+Dha, Ctg, Bar, Khu, *two_cities, raj, bog = cities
 print(Dha)                        # Dhaka
 print(Ctg)                        # Chittagong
 print(Bar)                        # Barishal
 print(Khu)                        # Khulna
 print(two_cities)                 # ['Sylhet', 'Jessore']
 print(raj)                        # Rajshahi
-
+print(bog)                        # Bogra
 
 # slicing items from a list:
 # Positive Indexing: We can specify a range of positive indexes by specifying the start, end and step, the return value will be a new list.

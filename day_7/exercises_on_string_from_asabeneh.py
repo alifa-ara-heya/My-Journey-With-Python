@@ -100,7 +100,7 @@ print("Coding For All People.".rfind("l"))         # 19
 
 
 # 23. Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-print('You cannot end a sentence with because because because is a conjunction'.find('because'))     # 31  (I could have used variable here.)
+print('You cannot end a sentence with because because because is a conjunction'.find('because'))     # output: 31  (I could have used variable here.)
 
 
 # 24. Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
@@ -108,12 +108,12 @@ print('You cannot end a sentence with because because because is a conjunction'.
 
 
 # 25. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-print('You cannot end a sentence with because because because is a conjunction'.index('because'))    # 31   (at first, I found the index no of first 'because' using .index() method)
-print('You cannot end a sentence with because because because is a conjunction'.rindex('because'))   # 47   (then, I found the index no of last 'because' using .rindex() method, that gave us the start point of last 'because')
+print('You cannot end a sentence with because because because is a conjunction'.index('because'))    # output: 31   (at first, I found the index no of first 'because' using .index() method)
+print('You cannot end a sentence with because because because is a conjunction'.rindex('because'))   # output: 47   (then, I found the index no of last 'because' using .rindex() method, that gave us the start point of last 'because')
 print('You cannot end a sentence with because because because is a conjunction'[31 : 54])            # because because because (finally, I added 6 with 46 and 1 more because the last index is excluded when using in range. That gave me 54.)
 
 # 26. Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-print('You cannot end a sentence with because because because is a conjunction'.find('because'))     # 31
+print('You cannot end a sentence with because because because is a conjunction'.find('because'))     # output: 31
 
 
 # 27. same question 25
