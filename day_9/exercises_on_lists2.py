@@ -315,7 +315,10 @@ print("Total number of countries:", len(countries))                 # Total numb
 # Unpack the first three countries and the rest as scandic countries.
 countries2 = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 first_country, second_country, third_country , *scandic_countries = countries2
-print(first_country)
-print(second_country)
-print(third_country)
-print(scandic_countries)
+print(first_country)           # China
+print(second_country)          # Russia
+print(third_country)           # USA
+print(scandic_countries)       # ['Finland', 'Sweden', 'Norway', 'Denmark']
+
+
+print('Alhamdulillah finished')
