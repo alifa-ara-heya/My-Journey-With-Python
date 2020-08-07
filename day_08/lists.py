@@ -155,3 +155,6 @@ print(orange_mango_lemon)         # ['orange', 'mango', 'lemon']
 
 reverse_fruits = fruits[::-1]
 print(reverse_fruits)             # ['lemon', 'mango', 'orange', 'banana']   a negative step will take the list in reverse order
+# or,
+fruits.reverse()
+print(fruits)                     # ['lemon', 'mango', 'orange', 'banana']

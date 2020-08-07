@@ -143,7 +143,7 @@ num.reverse()
 print(num)                                            # [5, 4, 3, 2, 1]
 
 
-# Sorting list items:
+# Sorting list items: permanent sorting-
 vegetables = ['onion', 'Tomato', 'carrot', 'brocoli']
 vegetables.sort()
 print(vegetables)                                     # ['Tomato', 'brocoli', 'carrot', 'onion'] (sorted in ascending order, capital letter comes first)
@@ -164,9 +164,29 @@ ages = [50, 20, 30, 10, 60]
 ages.sort(reverse = True)
 print(ages)                                           # [60, 50, 30, 20, 10] (largest to smallest)
 
-#another way to sort:
+
+#another way to sort: a temporary way.
+# To maintain the original order of a list but present it in a sorted order, you can use the sorted() function. 
+# The sorted() function lets you display your list in a particular order but doesn’t affect the actual order of the list.
 fruits = ['banana', 'orange', 'mango', 'lemon']
 print(sorted(fruits))                                 # ['banana', 'lemon', 'mango', 'orange'] ( a to z)
 
 fruits = ['banana', 'orange', 'mango', 'lemon']
 print(sorted(fruits, reverse = True))                 # ['orange', 'mango', 'lemon', 'banana'] (z to a)
+
+print(fruits)                                         # unchanged
+
+cars = ["bmw", "audi", "toyota", "subaru"]
+print("Here is the original list: ", cars)            # Here is the original list:  ['bmw', 'audi', 'toyota', 'subaru']
+print("Here is the sorted list:" , sorted(cars))      # Here is the sorted list: ['audi', 'bmw', 'subaru', 'toyota']
+print("Here is the original list again: ", cars)      # Here is the original list again:  ['bmw', 'audi', 'toyota', 'subaru']
+
+cars = ["bmw", "audi", "toyota", "subaru"]
+cars.reverse()
+print(cars)                                           # ['subaru', 'toyota', 'audi', 'bmw']
+cars.sort(reverse = True)
+print(cars)
+# Note: sort(reveres = True) or sorted(reverse = True) make the list reverse alphabetically (from z to a)
+# But, .reverse() just reverses the list (from backword to forward)
+# Note: Use .sorted() if you want to sort the list temporarily.
+# Notes collected from the book "Python Crash Course".
