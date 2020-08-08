@@ -64,3 +64,7 @@ digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 print(min(digits))               # 0
 print(max(digits))               # 9
 print(sum(digits))               # 45
+
+# Automate the boring staff with Python, example:
+for i in range(5, -1, -1):
+    print(i)                     # 5 4 3 2 1 0
