@@ -63,3 +63,15 @@ if fh > 40:
 else:
     xp = fh * fr
 print("Pay:", xp)
+
+
+# my way again: (understood)
+hours = input("Enter hours please: ")
+rate = input("Enter rate please: ")
+float_hours = float(hours)
+float_rate = float(rate)
+regular_pay = 40 * float_rate
+if float_hours > 40:
+    extra_rate = (float_hours - 40) * float_rate * 1.5
+overtime_pay = regular_pay + extra_rate
+print("Pay: ", overtime_pay)

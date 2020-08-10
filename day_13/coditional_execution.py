@@ -82,3 +82,44 @@ for i in range(5):
         print('Bigger than 2.')
     print("done with i =", i, ".")
 print('All done.')
+
+# try except:
+astr = 'Hello Bob'
+try:
+    istr = int(astr)
+except:
+    istr = -1
+
+print('First', istr)          # First -1
+
+astr = '123'
+try:
+    istr = int(astr)
+except:
+    istr = -1
+
+print("Second", istr)         # Second 123
+
+
+# Sample try and except:
+astr = "bob"
+try:
+    print("hello")
+    istr = int(astr)
+    print("there")
+except:
+    istr = -1
+
+print("done", istr)         # done -1
+
+# try except:
+rawstr = input("Enter a number: ")
+try:
+    ival = int(rawstr)
+except:
+    ival = -1
+
+if ival > 0:
+    print("Nice work")
+else:
+    print("Not a number")
