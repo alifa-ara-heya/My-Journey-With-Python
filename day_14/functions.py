@@ -84,3 +84,23 @@ print_twice(ex)          # Hi, there. Hi, there.
 # Fruitful functions and void functions:
 x = math.cos(radians)
 golden = (math.sqrt(5) + 1) / 2
+
+#result = print_twice("bing")  # bing bing      # disabled
+#print(result)                 # none           # disabled
+
+print(type(None))             # <class 'NoneType'>
+
+
+#  a very simple function called addtwo that adds two numbers together and returns a result.
+
+def addtwo(a, b):
+    added = a + b
+    return added
+
+x = addtwo(3, 5)
+print(x)               # 8
+
+
+
+
+ 

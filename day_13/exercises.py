@@ -75,3 +75,6 @@ if float_hours > 40:
     extra_rate = (float_hours - 40) * float_rate * 1.5
 overtime_pay = regular_pay + extra_rate
 print("Pay: ", overtime_pay)
+
+# chapter - 4:
+# Rewrite your pay computation with time-and-a-half for overtime and create a function called computepay which takes two parameters (hours and rate).

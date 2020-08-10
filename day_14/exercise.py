@@ -15,3 +15,17 @@ t = [1, 2, 3]
 print(random.choice(t))
 print(random.choice(t))
 
+
+# Exercise 5: What will the following Python program print out?
+
+def fred():
+   print("Zap")
+
+def jane():
+   print("ABC")
+
+jane()
+fred()
+jane()
+
+# ABC Zap ABC
