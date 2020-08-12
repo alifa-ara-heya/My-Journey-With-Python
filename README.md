@@ -10,5 +10,6 @@ I am grateful to all of my teachers. Without their inspiration and hard work it 
 - **blog:** [30 days of Python by Phil Best and Jose Salvatierra](https://blog.tecladocode.com/)
 - **video:** [Programming with Mosh](https://youtu.be/_uQrJ0TkZlc)
 - **video:** [Python for beginners by Mike Dane](https://youtu.be/rfscVS0vtbw)
-- **book:** ["Python Crash Course"](https://ehmatthes.github.io/pcc/) by Eric Matthes.
+- **book:** ["Python Crash Course"](https://ehmatthes.github.io/pcc/) by Eric Matthes. *(My most favourite Python book)*
 - **book:** ["Automate the Boring Stuff with Python"](https://automatetheboringstuff.com/) By Al Sweigart.
+- **book:** ["Python for everybody"](https://www.py4e.com/html3/01-intro) by Dr. Charles R. Severance

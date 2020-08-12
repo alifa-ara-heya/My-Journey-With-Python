@@ -99,8 +99,3 @@ def addtwo(a, b):
 
 x = addtwo(3, 5)
 print(x)               # 8
-
-
-
-
- 
