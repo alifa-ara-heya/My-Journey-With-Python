@@ -57,3 +57,33 @@ st = {'item1', 'item2', 'item3', 'item4'}
 del st
 
 # Converting List to Set:
+fruits = ['banana', 'orange', 'mango', 'lemon','orange', 'banana']
+fruits = set(fruits)
+print(fruits)               # {'mango', 'orange', 'lemon', 'banana'}
+
+# Converting set to list:
+st = {'item1', 'item2', 'item3', 'item4'}
+st = list(st)
+print(st)                   # ['item2', 'item3', 'item4', 'item1']
+
+# joining sets: We can join two sets using the union() or update() method.
+# Union method returns a new set.
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item5', 'item6', 'item7', 'item8'}
+st3 = st1.union(st2)
+print(st3)                  # {'item4', 'item5', 'item1', 'item3', 'item8', 'item7', 'item2', 'item6'}
+
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+vegetables = {'tomato', 'potato', 'cabbage','onion', 'carrot'}
+print(fruits.union(vegetables)) # {'cabbage', 'potato', 'onion', 'carrot', 'tomato', 'orange','banana', 'mango', 'lemon'}
+
+# Update method inserts a set into a given set:
+st1 = {'item1', 'item2', 'item3'}
+st2 = {'item4', 'item5', 'item6'}
+st1.update(st2)
+print(st1)              # {'item2', 'item1', 'item4', 'item5', 'item6', 'item3'}
+
+fruits = {'banana', 'orange'}
+vegetables = {'tomato', 'potato'}
+fruits.update(vegetables)
+print(fruits)
