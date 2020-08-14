@@ -48,9 +48,11 @@ print(A.issubset(B))              # True
 print(A.isdisjoint(B))            # False
 
 # 10. Join A with B and B with A.
-A.update(B)
+A = {19, 22, 24, 20, 25, 26}
+B = {19, 22, 20, 25, 26, 24, 28, 27}
+A.union(B)
 print(A)                          # {19, 20, 22, 24, 25, 26, 27, 28}
-B.update(A)
+B.union(A)
 print(B)                          # {19, 20, 22, 24, 25, 26, 27, 28}
 
 # 11. What is the symmetric difference between A and B.
@@ -70,10 +72,16 @@ print(len(age) - len(ages))     # 3
 print(len(age) > len(ages))     # True (list is bigger)
 
 # 14. Explain the difference between the following data types: string, list, tuple and set.
+# "Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters."
+# "List is a collection which is ordered and changeable. Allows duplicate members."
+# "Tuple is a collection which is ordered and unchangeable. Allows duplicate members."
+# "Set is a collection which is unordered and unindexed. No duplicate members."
 
 # 15. "I am a teacher and I love to inspire and teach people." How many unique words have been used in the sentence? You did not learn loops yet you can do it manually.
 sentence = "I am a teacher and I love to inspire and teach people."
-print(sentence.split())        # ['I', 'am', 'a', 'teacher', 'and', 'I', 'love', 'to', 'inspire', 'and', 'teach', 'people.']
+split_sentence = sentence.split(' ')
+print(split_sentence)        # ['I', 'am', 'a', 'teacher', 'and', 'I', 'love', 'to', 'inspire', 'and', 'teach', 'people.']
 print(type(sentence))          # <class 'str'>
-sentence = set(sentence)
-print(sentence)
+set_sentence = set(split_sentence)
+print(set_sentence)          # {'teacher', 'people.', 'and', 'inspire', 'to', 'am', 'love', 'I', 'a', 'teach'}
+print(len(set_sentence))     # 10 unique words.
