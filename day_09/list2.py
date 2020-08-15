@@ -1,7 +1,7 @@
 # Day_9: August/05/2020
 # In the name 0f Allah..
 # Me: Alifa Ara Heya
-# From: Asabeneh (30 Days of Python: Day-5)
+# From: Asabeneh (30 Days of Python: Day-5) and teclado : 30 Days of Python.
 
 # Modifying lists:
 fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -186,7 +186,20 @@ cars.reverse()
 print(cars)                                           # ['subaru', 'toyota', 'audi', 'bmw']
 cars.sort(reverse = True)
 print(cars)
-# Note: sort(reveres = True) or sorted(reverse = True) make the list reverse alphabetically (from z to a)
+# Note: sort(reverse = True) or sorted(reverse = True) make the list reverse alphabetically (from z to a)
 # But, .reverse() just reverses the list (from backword to forward)
 # Note: Use .sorted() if you want to sort the list temporarily.
 # Notes collected from the book "Python Crash Course".
+
+
+# lists on teclado blog (30 days of python).
+
+# Adding items in a list:
+names = ["John", "Alice", "Sarah", "George"]
+names.append("Simon")   # This modifies the original list.
+
+# But adding by + operator is sometimes handy because it creates a new list.
+names = ["John", "Alice", "Sarah", "George"]
+names2 = names + ['Simon']
+print(names)            # ['John', 'Alice', 'Sarah', 'George']
+print(names2)           # ['John', 'Alice', 'Sarah', 'George', 'Simon']
