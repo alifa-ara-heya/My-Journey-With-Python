@@ -63,5 +63,24 @@ print("Sarah's favorite language is " + favorite_languages['sarah'].title() + '.
 # or,
 print("Sarah's favorite language is " +
 favorite_languages['sarah'].title() +
-'.'
-)
+'.')
+
+# Looping through a Dictionary:
+user_0 = {
+    'username' : 'efarmi',
+    'first' : 'enrico',
+    'last' : 'fermi',
+}
+
+for key, value in user_0.items():
+    print("\nKey: " + key)
+    print("Value: " + value)
+
+#or,
+for k, v in user_0.items():
+    print("\nInfo: " + k)
+    print("Value: " + v)
+
+# looping the favorite language:
+for person, favorite_language in favorite_languages.items():
+    print(f"{person.title()} loves {favorite_language.title()}.")
