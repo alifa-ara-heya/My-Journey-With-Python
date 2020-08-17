@@ -1,4 +1,4 @@
-# Day_19: August/15/2020
+# Day_20: August/16/2020
 # In the name 0f Allah..
 # Me: Alifa
 # Python Crash Course by Eric Matthes (Chapter: 6 [Dictionaries])
@@ -82,5 +82,58 @@ for k, v in user_0.items():
     print("Value: " + v)
 
 # looping the favorite language:
+favorite_languages = {
+    'jen' : 'python',
+    'sarah' : 'c',
+    'edward' : 'ruby',
+    'phil' : 'python',
+}
 for person, favorite_language in favorite_languages.items():
     print(f"{person.title()} loves {favorite_language.title()}.")
+
+
+# Looping Through All the Keys in a Dictionary: Printing who took the pole.
+for person in favorite_languages.keys():
+    print(person.title())            # Jen      Sarah       Edward     Phil
+# or,
+for person in favorite_languages:
+    print(person.title())            # Jen      Sarah       Edward     Phil
+
+print()
+# You can access the value associated with any key you care about inside the loop by using the current key. Let’s print a message to a couple of friends about the languages they chose.
+favorite_languages = {
+    'jen' : 'python',
+    'sarah' : 'c',
+    'edward' : 'ruby',
+    'phil' : 'python',
+}
+friends = ['phil', 'sarah']
+for person in favorite_languages.keys():
+    print(person.title())
+    if person in friends:
+        print('Hi ' + person.title() + ", I see your favorite language is " + favorite_languages[person].title() + "!")
+
+
+if 'erin' not in favorite_languages.keys():
+    print("Erin, please take our poll!")
+
+
+# Looping Through a Dictionary’s Keys in Order.
+favorite_languages = {
+    'jen' : 'python',
+    'sarah' : 'c',
+    'edward' : 'ruby',
+    'phil' : 'python',
+}
+for name in sorted(favorite_languages.keys()):
+    print(name.title() + ", thank you for taking the poll!")
+
+# Looping Through All Values in a Dictionary.
+print("The following languages have been mentioned: ")
+for language in favorite_languages.values():
+    print(language.title())
+
+# if we want to print the languages without repetition we can use set method.
+print("The following languages have been mentioned: ")
+for language in set(favorite_languages.values()):
+    print(language.title())

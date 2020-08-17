@@ -1,3 +1,8 @@
+# Day_20: August/16/2020
+# In the name 0f Allah..
+# Me: Alifa
+# freecodecamp (scientific computing with Python)
+
 print(0 is 0.0)
 
 for n in "banana":
