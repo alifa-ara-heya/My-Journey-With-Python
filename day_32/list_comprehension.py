@@ -40,3 +40,21 @@ numbers = [-8, -7, -3, -1, 0, 1, 3, 4, 5, 7, 6, 8, 10]
 print_positive_even = [i for i in numbers if i % 2 == 0 and i > 0]
 print(print_positive_even)    # [4, 6, 8, 10]
 
+
+# Flattening a three dimensional array:
+three_dimen_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+flattened_list = [number for row in three_dimen_list for number in row]
+print(flattened_list)         # [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+# Exercises:
+# Filter only negative and zero in the list using list comprehension.
+numbers = [-4, -3, -2, -1, 0, 2, 4, 6]
+negative_zero = [i for i in numbers if i <= 0]
+print(negative_zero)          # [-4, -3, -2, -1, 0]
+
+
+# Flatten the following list of lists of lists to a one dimensional list :
+list_of_lists = [[[1, 2, 3]], [4, 5, 6]], [[7, 8, 9]]
+#flat_list = [i for row in ]
+
